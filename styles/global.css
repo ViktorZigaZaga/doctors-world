@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url(../fonts/CenturyGothicRegular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url(../fonts/CenturyGothic-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url(../fonts/NotoSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(../fonts/NotoSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: NotoSans, helvetica, sans-serif;
+    color: #01457A;
+    max-width: 1920px;
+    padding: 140px auto;
+    background: linear-gradient(#FFFFFF, #D8EFFF);
+}

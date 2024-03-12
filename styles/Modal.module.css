@@ -1,0 +1,37 @@
+.myModal {
+    position: fixed;
+    top: 0; 
+    bottom: 0;
+    right: 0; 
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.myModalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1210px;
+    padding: 40px;
+    gap: 40px;
+    font-size: 24px;
+    line-height: 32.69px;
+    background: white;
+    border: 1px solid #01457A;
+    border-radius: 20px;
+}
+
+.myModalActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.myModalcomponentsD {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}

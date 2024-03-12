@@ -1,0 +1,16 @@
+.recommendation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    border-radius: 20px;
+    background: linear-gradient(to right,#FBFDFF, #D8EFFF);
+    box-shadow: 0 0 25px rgba(142, 160, 173, 0.35);
+}
+
+.recommendationText {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32.69px; 
+}

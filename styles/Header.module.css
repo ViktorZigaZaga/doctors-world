@@ -1,0 +1,8 @@
+.header {
+    height: 70px;
+    background-repeat: no-repeat;
+    background-image: 
+        url('../public/images/Vector1.svg'),
+        url('../public/images/Vector2.svg'),
+        url('../public/images/Vector3.svg');
+}

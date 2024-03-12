@@ -1,0 +1,26 @@
+.survival {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 15px;
+    border-radius: 20px;
+    background: rgba(253, 217, 102, 0.25);
+}
+
+.survivalPercent {
+    font-size: 96px;
+    line-height: 130.75px;
+}
+
+.survivalHeader {
+    text-align: center;
+    font-size: 23px;
+    line-height: 35.41px;
+}
+
+.survivalText {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24.52px;
+}
